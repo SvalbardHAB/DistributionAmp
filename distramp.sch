@@ -532,7 +532,7 @@ $EndComp
 Wire Wire Line
 	3900 2650 3900 2950
 Wire Wire Line
-	3900 2750 4300 2750
+	3000 2750 4300 2750
 Wire Wire Line
 	3900 2850 4300 2850
 Connection ~ 3900 2750
@@ -551,7 +551,7 @@ Connection ~ 3900 2850
 Wire Wire Line
 	3900 3150 3900 3350
 Wire Wire Line
-	3900 3350 5700 3350
+	3000 3350 5700 3350
 Wire Wire Line
 	4800 3300 4800 3400
 $Comp
@@ -604,4 +604,24 @@ Connection ~ 5400 3350
 Text GLabel 5900 2750 2    60   Input ~ 0
 Vcc_3V
 Connection ~ 5700 2750
+$Comp
+L CONN_01X02 P6
+U 1 1 578673A9
+P 2700 2900
+F 0 "P6" H 2700 3050 50  0000 C CNN
+F 1 "PWR" V 2800 2900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2700 2900 50  0001 C CNN
+F 3 "" H 2700 2900 50  0000 C CNN
+	1    2700 2900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2850 3000 2850
+Wire Wire Line
+	3000 2850 3000 2750
+Wire Wire Line
+	3000 3350 3000 2950
+Wire Wire Line
+	3000 2950 2900 2950
+Connection ~ 3900 3350
 $EndSCHEMATC
