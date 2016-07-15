@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "434MHz LNA/Distribution Amp"
+Title "434MHz/869MHz LNA/Distribution Amp"
 Date "2016-07-12"
 Rev "1"
 Comp "SPS Svalbard Project"
@@ -624,4 +624,56 @@ Wire Wire Line
 Wire Wire Line
 	3000 2950 2900 2950
 Connection ~ 3900 3350
+Text Notes 2425 4450 0    60   ~ 0
+B39871B3725U410
+Wire Notes Line
+	2400 4475 3300 4475
+Wire Notes Line
+	3300 4475 3300 4350
+Wire Notes Line
+	3300 4350 2400 4350
+Wire Notes Line
+	2400 4350 2400 4475
+Text Notes 7775 4575 1    50   ~ 0
+36n
+Wire Notes Line
+	7675 4600 7800 4600
+Wire Notes Line
+	7800 4600 7800 4425
+Wire Notes Line
+	7800 4425 7675 4425
+Wire Notes Line
+	7675 4425 7675 4600
+Text Notes 8575 4575 1    50   ~ 0
+36n
+Wire Notes Line
+	8475 4600 8600 4600
+Wire Notes Line
+	8600 4600 8600 4425
+Wire Notes Line
+	8600 4425 8475 4425
+Wire Notes Line
+	8475 4425 8475 4600
+Text Notes 9275 4575 1    50   ~ 0
+36n
+Wire Notes Line
+	9175 4600 9300 4600
+Wire Notes Line
+	9300 4600 9300 4425
+Wire Notes Line
+	9300 4425 9175 4425
+Wire Notes Line
+	9175 4425 9175 4600
+Text Notes 9975 4575 1    50   ~ 0
+36n
+Wire Notes Line
+	9875 4600 10000 4600
+Wire Notes Line
+	10000 4600 10000 4425
+Wire Notes Line
+	10000 4425 9875 4425
+Wire Notes Line
+	9875 4425 9875 4600
+Text Notes 7550 3025 0    60   ~ 0
+Component values in dashed boxes\nare for 869MHz version.
 $EndSCHEMATC
